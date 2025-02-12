@@ -1,0 +1,19 @@
+.card {
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    background: #a39999;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .imgcont {
+    height: 200px;
+    width: 200px;
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
