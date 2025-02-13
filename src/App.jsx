@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import PokeCard from './PokeCard.jsx';
+import Nav from './Nav.jsx';
+import HomeGrid from './HomeGrid.jsx';
 
 import './App.css';
 
@@ -39,7 +41,11 @@ function App() {
         return <li> {curr.name}</li>;
       })} */}
 
-      <PokeCard />
+      {/*<PokeCard />*/}
+
+
+      <Nav/>
+      <HomeGrid />
     </>
   );
 }
