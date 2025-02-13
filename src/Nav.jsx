@@ -10,9 +10,9 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-blue-600 p-4">
+    <nav className="bg-blue-600 p-4 sticky top-0">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <div className="text-white text-lg font-bold">Brand</div>
+        <div className="text-white text-lg font-bold">PIKA PIKA</div>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-4">
